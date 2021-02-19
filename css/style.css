@@ -1,0 +1,36 @@
+.about {
+    background: red;
+    height: 500px;
+    width: 500px;
+}
+.about p{
+    font-size: 20px;
+    color: white;
+    padding: 24px;
+    text-align: justify;
+    line-height: 24px;
+}
+.about .about_child {
+    background: blue;
+    height: 300px;
+    width: 500px;
+}
+.about_child h5{
+    font-size: 30px;
+    color: white;
+    padding: 24px;
+    text-align: justify;
+    line-height: 24px;
+}
+.about_childs {
+    background: yellow;
+    height: 500px;
+    width: 500px;
+}
+.about .about_childs h6{
+    font-size: 25px;
+    color: orangered;
+    padding: 24px;
+    text-align: justify;
+    line-height: 24px;
+}
