@@ -61,7 +61,7 @@ border-radius: 80%;
     background-color: chartreuse;
 }
 /*23,02,21*/
-
+/*
 .post1,.post2,.post3{
     border: 1px solid black;
     height: 200px;
@@ -123,4 +123,51 @@ border-radius: 80%;
     font-size: 20px;
     color:white;
 }
+*/
 
+.mainparents{
+    height: 600px;
+    width: 700px;
+    background-color: chartreuse;
+    margin: auto;
+    position: relative;
+    
+ }
+.allabout{
+    height: 200px;
+    width: 200px;
+    float: left;
+    position :absolute;
+}
+.aboutone{
+    background-color:green;
+    top:0;
+    left:0;
+    z-index: 99;
+}
+.abouttwo{
+    background-color:green;
+    left: 200px;
+    bottom: 400px;
+
+}
+.aboutthree{
+    background-color:red;
+    left: 100px;
+    bottom: 400px;
+    border-radius: 100%;
+    z-index: 999;
+}
+.banner{
+    background:url(../image/banner.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.banner p{
+    font-size: x-large;
+font-style: italic;
+color: red;
+}
